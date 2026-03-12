@@ -44,7 +44,7 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.11.0</version>
             <configuration>
-                <source>21</source> <!-- or your Java version -->
+                <source>21</source>
                 <target>21</target>
                 <annotationProcessorPaths>
                     <path>
@@ -70,7 +70,6 @@
             <configuration>
                 <finalName>benchmarks</finalName>
 
-                <!-- 🔥 THIS FIXES YOUR ERROR -->
                 <filters>
                     <filter>
                         <artifact>*:*</artifact>
@@ -94,4 +93,5 @@
 
     </plugins>
 </build>
+
 </project>
